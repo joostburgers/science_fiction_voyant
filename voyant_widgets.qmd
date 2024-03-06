@@ -1,0 +1,19 @@
+---
+title: "Voyant Widgets"
+author: "Joost Burgers"
+format: html
+editor: visual
+---
+
+
+# Trends Tool
+
+The following widgets are extractions from the trends tool in Voyant. The titles indicate the corpus.
+
+## Male Authors
+
+<iframe style='width: 566px; height: 406px;' src='https://voyant-tools.org/tool/Trends/?query=said&query=like&query=man&query=time&query=know&corpus=6ccfe7c930301d111062e3923646d49a'></iframe>
+
+## Female Authors
+
+<iframe style='width: 566px; height: 406px;' src='https://voyant-tools.org/tool/Trends/?query=said&query=time&query=like&query=man&query=ross&corpus=54414563d5ac36738d6fa58526dfd30d'></iframe>
