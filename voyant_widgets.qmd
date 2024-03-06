@@ -6,14 +6,38 @@ editor: visual
 ---
 
 
+
+
+
 # Trends Tool
 
 The following widgets are extractions from the trends tool in Voyant. The titles indicate the corpus.
 
-## Male Authors
+### Male Authors
 
 <iframe style='width: 566px; height: 406px;' src='https://voyant-tools.org/tool/Trends/?query=said&query=like&query=man&query=time&query=know&corpus=6ccfe7c930301d111062e3923646d49a'></iframe>
 
-## Female Authors
+### Female Authors
 
 <iframe style='width: 566px; height: 406px;' src='https://voyant-tools.org/tool/Trends/?query=said&query=time&query=like&query=man&query=ross&corpus=54414563d5ac36738d6fa58526dfd30d'></iframe>
+
+
+# Document Clustering
+
+### Male Authors
+
+<iframe style='width: 800px; height: 743px;' src='https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&limit=160&dimensions=2&comparisonType=tfidf&corpus=6ccfe7c930301d111062e3923646d49a'></iframe>
+
+### Female Authors
+
+<iframe style='width: 800px; height: 743px;' src='https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&limit=73&dimensions=2&comparisonType=tfidf&corpus=54414563d5ac36738d6fa58526dfd30d'></iframe>
+
+# Context
+
+### Male Authors
+
+<iframe style='width: 851px; height: 258px;' src='https://voyant-tools.org/tool/Contexts/?query=said&view=scatterplot&corpus=6ccfe7c930301d111062e3923646d49a'></iframe>
+
+### Female Authors
+
+<iframe style='width: 851px; height: 258px;' src='https://voyant-tools.org/tool/Contexts/?query=said&view=scatterplot&corpus=54414563d5ac36738d6fa58526dfd30d'></iframe>
