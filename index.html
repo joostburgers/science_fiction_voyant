@@ -24,16 +24,16 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="voyant_widgets_files/libs/clipboard/clipboard.min.js"></script>
-<script src="voyant_widgets_files/libs/quarto-html/quarto.js"></script>
-<script src="voyant_widgets_files/libs/quarto-html/popper.min.js"></script>
-<script src="voyant_widgets_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="voyant_widgets_files/libs/quarto-html/anchor.min.js"></script>
-<link href="voyant_widgets_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="voyant_widgets_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="voyant_widgets_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="voyant_widgets_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="voyant_widgets_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -67,30 +67,43 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="trends-tool" class="level1">
-<h1>Trends Tool</h1>
-<p>The following widgets are extractions from the trends tool in Voyant. The titles indicate the corpus.</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The following widgets have been taken from the Voyant site and the science fiction data has been pre-loaded onto them. This includes two zip files:</p>
+<ul>
+<li><p><code>female_by_author.zip</code> A file with 50 short stories by female authors sorted by author. This means that some authors could contain multiple stories.</p></li>
+<li><p><code>male_by_author.zip</code> A file with 100 short stories by male authors sorted by author. Some of the author entries can contain multiple stories.</p></li>
+</ul>
+<p>Each widget has been labelled with <strong>Male Author</strong> and <strong>Female Author</strong> to indicate the different corpora.</p>
+<section id="scatterplot" class="level2">
+<h2 class="anchored" data-anchor-id="scatterplot">Scatterplot</h2>
+<p>ScatterPlot is a graph visualization of how words cluster in a corpus document similarity, correspondence analysis or principal component analysis.</p>
+<p>The following scatterplot has been predefined to do <strong>document similarity</strong> based on TD-IDF (Term Frequency - Inverse Document Frequency) which measures how important a word in one document is compared to words in all other documents.</p>
+<p>Document similarity clusters works together if they have a lot of words in common, and spreads them out if there are a lot of different works.</p>
+<p>You can collapse the terms list by clicking the arrow at the top right.</p>
 <section id="male-authors" class="level3">
 <h3 class="anchored" data-anchor-id="male-authors">Male Authors</h3>
-<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=like&amp;query=man&amp;query=time&amp;query=know&amp;corpus=6ccfe7c930301d111062e3923646d49a">
+<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=160&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
 </iframe>
 </section>
 <section id="female-authors" class="level3">
 <h3 class="anchored" data-anchor-id="female-authors">Female Authors</h3>
-<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=time&amp;query=like&amp;query=man&amp;query=ross&amp;corpus=54414563d5ac36738d6fa58526dfd30d">
+<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=73&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=54414563d5ac36738d6fa58526dfd30d&amp;subtitle=Female%20Author">
 </iframe>
 </section>
 </section>
-<section id="document-clustering" class="level1">
-<h1>Document Clustering</h1>
+</section>
+<section id="trends-tool" class="level1">
+<h1>Trends Tool</h1>
+<p>The following widgets are extractions from the trends tool in Voyant. The titles indicate the corpus.</p>
 <section id="male-authors-1" class="level3">
 <h3 class="anchored" data-anchor-id="male-authors-1">Male Authors</h3>
-<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=160&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=6ccfe7c930301d111062e3923646d49a">
+<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=like&amp;query=man&amp;query=time&amp;query=know&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
 </iframe>
 </section>
 <section id="female-authors-1" class="level3">
 <h3 class="anchored" data-anchor-id="female-authors-1">Female Authors</h3>
-<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=73&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=54414563d5ac36738d6fa58526dfd30d">
+<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=time&amp;query=like&amp;query=man&amp;query=ross&amp;corpus=54414563d5ac36738d6fa58526dfd30d&amp;subtitle=Female%20Authors">
 </iframe>
 </section>
 </section>
@@ -98,12 +111,12 @@ ul.task-list li input[type="checkbox"] {
 <h1>Context</h1>
 <section id="male-authors-2" class="level3">
 <h3 class="anchored" data-anchor-id="male-authors-2">Male Authors</h3>
-<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=6ccfe7c930301d111062e3923646d49a">
+<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
 </iframe>
 </section>
 <section id="female-authors-2" class="level3">
 <h3 class="anchored" data-anchor-id="female-authors-2">Female Authors</h3>
-<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=54414563d5ac36738d6fa58526dfd30d">
+<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=54414563d5ac36738d6fa58526dfd30d&amp;subtitle=Female%20Authors">
 </iframe>
 </section>
 </section>
