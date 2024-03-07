@@ -1,18 +1,22 @@
 ---
 title: "Voyant Widgets"
 author: "Joost Burgers"
-format: html
+format:
+  html:
+    theme: spacelab
+toc: true
+toc-depth: 3
 editor: visual
 ---
 
 # Introduction
 
-The following widgets have been taken from the Voyant site and the science fiction data has been pre-loaded onto them. This includes two zip files: 
+The following widgets have been taken from the Voyant site and the science fiction data has been pre-loaded onto them. This includes two zip files:
 
- - `female_by_author.zip` A file with 50 short stories by female authors sorted by author. This means that some authors could contain multiple stories.
- 
- - `male_by_author.zip` A file with 100 short stories by male authors sorted by author. Some of the author entries can contain multiple stories.
- 
+-   `female_by_author.zip` A file with 50 short stories by female authors sorted by author. This means that some authors could contain multiple stories.
+
+-   `male_by_author.zip` A file with 100 short stories by male authors sorted by author. Some of the author entries can contain multiple stories.
+
 Each widget has been labelled with **Male Author** and **Female Author** to indicate the different corpora.
 
 ## Scatterplot
@@ -25,25 +29,17 @@ The following scatterplot has been predefined to do **document similarity** base
 
 Document similarity clusters works together if they have a lot of words in common, and spreads them out if there are a lot of different works.
 
-
-
-
 ### Male Authors
 
-<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=160&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=6ccfe7c930301d111062e3923646d49a&subtitle=Male%20Authors">
+<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=160&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
 
 </iframe>
 
 ### Female Authors
 
-<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=73&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=54414563d5ac36738d6fa58526dfd30d&subtitle=Female%20Author">
+<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=73&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=54414563d5ac36738d6fa58526dfd30d&amp;subtitle=Female%20Author">
 
 </iframe>
-
-
-
-
-
 
 ## Trends Tool
 
@@ -51,16 +47,15 @@ Use the trends tool to analyze individual words or clusters of words.
 
 ### Male Authors
 
-<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=like&amp;query=man&amp;query=time&amp;query=know&amp;corpus=6ccfe7c930301d111062e3923646d49a&subtitle=Male%20Authors">
+<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=like&amp;query=man&amp;query=time&amp;query=know&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
 
 </iframe>
 
 ### Female Authors
 
-<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=time&amp;query=like&amp;query=man&amp;query=ross&amp;corpus=54414563d5ac36738d6fa58526dfd30d&subtitle=Female%20Authors">
+<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=time&amp;query=like&amp;query=man&amp;query=ross&amp;corpus=54414563d5ac36738d6fa58526dfd30d&amp;subtitle=Female%20Authors">
 
 </iframe>
-
 
 ## Context
 
@@ -68,12 +63,12 @@ The context tool allows you to see how each word is actually being used in a sen
 
 ### Male Authors
 
-<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=6ccfe7c930301d111062e3923646d49a&subtitle=Male%20Authors">
+<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
 
 </iframe>
 
 ### Female Authors
 
-<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=54414563d5ac36738d6fa58526dfd30d&subtitle=Female%20Authors">
+<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=54414563d5ac36738d6fa58526dfd30d&amp;subtitle=Female%20Authors">
 
 </iframe>

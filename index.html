@@ -38,10 +38,35 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="fullcontent">
+<body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#scatterplot" id="toc-scatterplot" class="nav-link" data-scroll-target="#scatterplot">Scatterplot</a>
+  <ul class="collapse">
+  <li><a href="#male-authors" id="toc-male-authors" class="nav-link" data-scroll-target="#male-authors">Male Authors</a></li>
+  <li><a href="#female-authors" id="toc-female-authors" class="nav-link" data-scroll-target="#female-authors">Female Authors</a></li>
+  </ul></li>
+  <li><a href="#trends-tool" id="toc-trends-tool" class="nav-link" data-scroll-target="#trends-tool">Trends Tool</a>
+  <ul class="collapse">
+  <li><a href="#male-authors-1" id="toc-male-authors-1" class="nav-link" data-scroll-target="#male-authors-1">Male Authors</a></li>
+  <li><a href="#female-authors-1" id="toc-female-authors-1" class="nav-link" data-scroll-target="#female-authors-1">Female Authors</a></li>
+  </ul></li>
+  <li><a href="#context" id="toc-context" class="nav-link" data-scroll-target="#context">Context</a>
+  <ul class="collapse">
+  <li><a href="#male-authors-2" id="toc-male-authors-2" class="nav-link" data-scroll-target="#male-authors-2">Male Authors</a></li>
+  <li><a href="#female-authors-2" id="toc-female-authors-2" class="nav-link" data-scroll-target="#female-authors-2">Female Authors</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -78,9 +103,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="scatterplot" class="level2">
 <h2 class="anchored" data-anchor-id="scatterplot">Scatterplot</h2>
 <p>ScatterPlot is a graph visualization of how words cluster in a corpus document similarity, correspondence analysis or principal component analysis.</p>
+<p>You can collapse the terms list by clicking the arrow at the top right.</p>
 <p>The following scatterplot has been predefined to do <strong>document similarity</strong> based on TD-IDF (Term Frequency - Inverse Document Frequency) which measures how important a word in one document is compared to words in all other documents.</p>
 <p>Document similarity clusters works together if they have a lot of words in common, and spreads them out if there are a lot of different works.</p>
-<p>You can collapse the terms list by clicking the arrow at the top right.</p>
 <section id="male-authors" class="level3">
 <h3 class="anchored" data-anchor-id="male-authors">Male Authors</h3>
 <iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=160&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
@@ -92,10 +117,9 @@ ul.task-list li input[type="checkbox"] {
 </iframe>
 </section>
 </section>
-</section>
-<section id="trends-tool" class="level1">
-<h1>Trends Tool</h1>
-<p>The following widgets are extractions from the trends tool in Voyant. The titles indicate the corpus.</p>
+<section id="trends-tool" class="level2">
+<h2 class="anchored" data-anchor-id="trends-tool">Trends Tool</h2>
+<p>Use the trends tool to analyze individual words or clusters of words.</p>
 <section id="male-authors-1" class="level3">
 <h3 class="anchored" data-anchor-id="male-authors-1">Male Authors</h3>
 <iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=like&amp;query=man&amp;query=time&amp;query=know&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
@@ -107,8 +131,9 @@ ul.task-list li input[type="checkbox"] {
 </iframe>
 </section>
 </section>
-<section id="context" class="level1">
-<h1>Context</h1>
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>The context tool allows you to see how each word is actually being used in a sentence. This is good for a check to see if the word is actually being used in the way you think it is.</p>
 <section id="male-authors-2" class="level3">
 <h3 class="anchored" data-anchor-id="male-authors-2">Male Authors</h3>
 <iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=6ccfe7c930301d111062e3923646d49a&amp;subtitle=Male%20Authors">
@@ -118,6 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="female-authors-2">Female Authors</h3>
 <iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=54414563d5ac36738d6fa58526dfd30d&amp;subtitle=Female%20Authors">
 </iframe>
+</section>
 </section>
 </section>
 
