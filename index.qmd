@@ -7,12 +7,12 @@ editor: visual
 
 # Introduction
 
-The following widgets have been taken from the Voyant site and the science fiction data has been pre-loaded onto them. This includes two zip files: 
+The following widgets have been taken from the Voyant site and the science fiction data has been pre-loaded onto them. This includes two zip files:
 
- - `female_by_author.zip` A file with 50 short stories by female authors sorted by author. This means that some authors could contain multiple stories.
- 
- - `male_by_author.zip` A file with 100 short stories by male authors sorted by author. Some of the author entries can contain multiple stories.
- 
+- `female_by_author.zip` A file with 50 short stories by female authors sorted by author. This means that some authors could contain multiple stories.
+
+- `male_by_author.zip` A file with 100 short stories by male authors sorted by author. Some of the author entries can contain multiple stories.
+
 Each widget has been labelled with **Male Author** and **Female Author** to indicate the different corpora.
 
 ## Scatterplot
@@ -25,28 +25,24 @@ The following scatterplot has been predefined to do **document similarity** base
 
 Document similarity clusters works together if they have a lot of words in common, and spreads them out if there are a lot of different works.
 
-
-
-
 ### Male Authors
-<!--	Exported from Voyant Tools (voyant-tools.org).
+
+```{=html}
+<!--    Exported from Voyant Tools (voyant-tools.org).
 The iframe src attribute below uses a relative protocol to better function with both
 http and https sites, but if you're embedding this into a local web page (file protocol)
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 100%; height: 743px;' src='http://127.0.0.1:8888/tool/ScatterPlot/?corpus=142099723a2e467da1f3e654d229cc8b'></iframe>
+```
 
-### Female Authors
-
-<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=73&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=54414563d5ac36738d6fa58526dfd30d&subtitle=Female%20Author">
+<iframe style="width: 1200px; height: 743px;" src="http://127.0.0.1:8888/tool/ScatterPlot/?corpus=142099723a2e467da1f3e654d229cc8b">
 
 </iframe>
 
+### Female Authors
 
-
-
-
+<iframe style='width: 1200px; height: 863px;' src='http://127.0.0.1:8888/tool/ScatterPlot/?corpus=66c112cb38aa7b2094d0d7a387214394'></iframe>
 
 ## Trends Tool
 
@@ -54,26 +50,29 @@ Use the trends tool to analyze individual words or clusters of words.
 
 ### Male Authors
 
-<!--	Exported from Voyant Tools (voyant-tools.org).
+```{=html}
+<!--    Exported from Voyant Tools (voyant-tools.org).
 The iframe src attribute below uses a relative protocol to better function with both
 http and https sites, but if you're embedding this into a local web page (file protocol)
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-<!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 637px; height: 477px;' src='http://127.0.0.1:8888/tool/Trends/?query=said&query=like&query=man&query=time&query=know&view=contexts&corpus=142099723a2e467da1f3e654d229cc8b'></iframe>
+```
 
-### Female Authors
 
-<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=time&amp;query=like&amp;query=man&amp;query=ross&amp;corpus=54414563d5ac36738d6fa58526dfd30d&subtitle=Female%20Authors">
+<iframe style="width: 1200px; height: 477px;" src="http://127.0.0.1:8888/tool/Trends/?query=said&amp;query=like&amp;query=man&amp;query=time&amp;query=know&amp;view=contexts&amp;corpus=142099723a2e467da1f3e654d229cc8b">
 
 </iframe>
 
+### Female Authors
+
+<!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+<iframe style='width: 1200px; height: 478px;' src='http://127.0.0.1:8888/tool/Trends/?query=said&query=time&query=like&query=man&query=ross&corpus=66c112cb38aa7b2094d0d7a387214394'></iframe>
 
 ## Context
 
@@ -81,22 +80,11 @@ The context tool allows you to see how each word is actually being used in a sen
 
 ### Male Authors
 
-<!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-<!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 958px; height: 306px;' src='http://127.0.0.1:8888/tool/Contexts/?query=said&view=contexts&corpus=142099723a2e467da1f3e654d229cc8b'></iframe>
+
+<iframe style="width: 1200px; height: 306px;" src="http://127.0.0.1:8888/tool/Contexts/?query=said&amp;view=contexts&amp;corpus=142099723a2e467da1f3e654d229cc8b">
+
+</iframe>
 
 ### Female Authors
 
-<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=54414563d5ac36738d6fa58526dfd30d&subtitle=Female%20Authors">
-
-</iframe>
+<iframe style='width: 1200px; height: 306px;' src='http://127.0.0.1:8888/tool/Contexts/?query=said&corpus=66c112cb38aa7b2094d0d7a387214394'></iframe>
