@@ -30,7 +30,13 @@ Document similarity clusters works together if they have a lot of words in commo
 
 ### Male Authors
 
-<iframe style="width: 800px; height: 743px;" src="https://voyant-tools.org/tool/ScatterPlot/?analysis=docSim&amp;limit=160&amp;dimensions=2&amp;comparisonType=tfidf&amp;corpus=6ccfe7c930301d111062e3923646d49a&subtitle=Male%20Authors">
+<!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+<iframe style='width: 800px; height: 743px;' src='http://127.0.0.1:8888/tool/ScatterPlot/?corpus=142099723a2e467da1f3e654d229cc8b'></iframe>
 
 </iframe>
 
