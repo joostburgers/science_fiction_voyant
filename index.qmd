@@ -54,10 +54,13 @@ Use the trends tool to analyze individual words or clusters of words.
 
 ### Male Authors
 
-<iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=like&amp;query=man&amp;query=time&amp;query=know&amp;corpus=6ccfe7c930301d111062e3923646d49a&subtitle=Male%20Authors">
-
-</iframe>
-
+<!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+<iframe style='width: 100%; height: 800px;' src='http://127.0.0.1:8888/?panels=cirrus%2Creader%2Ctrends%2Csummary%2Ccontexts&corpus=142099723a2e467da1f3e654d229cc8b'></iframe>
 ### Female Authors
 
 <iframe style="width: 566px; height: 406px;" src="https://voyant-tools.org/tool/Trends/?query=said&amp;query=time&amp;query=like&amp;query=man&amp;query=ross&amp;corpus=54414563d5ac36738d6fa58526dfd30d&subtitle=Female%20Authors">
@@ -71,9 +74,13 @@ The context tool allows you to see how each word is actually being used in a sen
 
 ### Male Authors
 
-<iframe style="width: 851px; height: 258px;" src="https://voyant-tools.org/tool/Contexts/?query=said&amp;view=scatterplot&amp;corpus=6ccfe7c930301d111062e3923646d49a&subtitle=Male%20Authors">
-
-</iframe>
+<!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+<iframe style='width: 100%; height: 800px;' src='http://127.0.0.1:8888/?panels=cirrus%2Creader%2Ctrends%2Csummary%2Ccontexts&corpus=142099723a2e467da1f3e654d229cc8b'></iframe>
 
 ### Female Authors
 
