@@ -1,8 +1,13 @@
 ---
 title: "Voyant Widgets"
 author: "Joost Burgers"
-format: html
-editor: visual
+format:
+  html:
+    page-layout: full       # Uses the full browser width
+    grid:
+      body-width: 1200px    # Expands the main text/content area
+      sidebar-width: 200px
+      margin-width: 200px
 ---
 
 # Introduction
